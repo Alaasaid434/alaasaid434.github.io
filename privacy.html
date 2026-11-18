@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storage System Privacy</title>
+<style>
+  :root { --bg:#f5f6fa; --card:#fff; --text:#1f2330; --muted:#4f5668; --accent:#5b5bd6; --line:#e3e5ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14161d; --card:#1d2029; --text:#e8eaf1; --muted:#b0b6c6; --accent:#8b8bf0; --line:#2c3040; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px 28px; margin-bottom:20px; }
+  h1 { margin:0 0 4px; font-size:28px; } h2 { font-size:19px; margin:22px 0 6px; }
+  p, li { color:var(--muted); } a { color:var(--accent); }
+  .ar { direction:rtl; text-align:right; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Privacy policy – Storage System</h1>
+    <p>Last updated: 18 November 2026. Developer: <b>Alaa Said</b>, contact:
+      <b>alaasaid434@gmail.com</b>.</p>
+
+    <h2>What the app accesses in your Google account</h2>
+    <p>When you sign in with Google, the app asks for two permissions only:</p>
+    <ul>
+      <li><b>Your email address</b>: to check that your shop has a license.</li>
+      <li><b>Google Drive files you use with this app</b> (<code>drive.file</code>): the app
+        creates one spreadsheet, “Storage System – &lt;your shop&gt;”, in your Drive and reads and
+        writes only that file. It cannot see, read or change any other file in your Drive.</li>
+    </ul>
+
+    <h2>Where your data is stored</h2>
+    <ul>
+      <li>Your products, quantities, prices and history are stored in that spreadsheet in
+        <b>your own Google Drive</b>, and in a copy on your computer (so the app works without
+        internet).</li>
+      <li>Your Google sign-in is stored on your computer only.</li>
+      <li>Your inventory data is <b>never sent to the developer</b> or to anyone else.</li>
+    </ul>
+
+    <h2>What the developer receives</h2>
+    <p>To manage licenses, the app sends the developer's license server: your <b>email address</b>
+      (as confirmed by Google), a random <b>device ID</b> created by the app, the
+      <b>computer name</b>, the <b>app version</b> and the time of the check. These are kept in the
+      developer's license list to check payment status and the number of computers. Nothing else
+      is collected. No advertising, no tracking, and no data is sold or shared.</p>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>Storage System's use and transfer of information received from Google APIs adheres to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+      User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Removing access and deleting data</h2>
+    <ul>
+      <li>In the app: <b>License → Sign out</b> removes the sign-in from that computer.</li>
+      <li>Any time: remove “Storage System” at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+      <li>Your spreadsheet is yours: delete it from Google Drive whenever you like.</li>
+      <li>To have your license record deleted, write to the contact email above.</li>
+    </ul>
+  </div>
+
+  <div class="card ar" lang="ar">
+    <h1>سياسة الخصوصية – نظام المخزن</h1>
+    <p>عند تسجيل الدخول باستخدام Google يطلب البرنامج صلاحيتين فقط: <b>عنوان بريدك الإلكتروني</b>
+      للتحقق من ترخيص متجرك، و<b>الملفات التي يستخدمها البرنامج في Google Drive</b>: ينشئ البرنامج جدولًا
+      واحدًا باسم متجرك في Drive الخاص بك ولا يستطيع رؤية أي ملف آخر.</p>
+    <p>تُحفظ بيانات المخزن في هذا الجدول داخل <b>Google Drive الخاص بك</b> وفي نسخة على جهازك، و<b>لا تُرسل
+      أبدًا إلى المطوّر</b>. يتلقى خادم التراخيص فقط: بريدك الإلكتروني، ومعرّفًا عشوائيًا للجهاز، واسم الكمبيوتر،
+      وإصدار البرنامج، ووقت التحقق، وذلك لإدارة الترخيص وعدد الأجهزة. لا إعلانات ولا تتبّع ولا بيع أو مشاركة للبيانات.</p>
+    <p>يمكنك إلغاء الوصول في أي وقت من البرنامج (الترخيص ← تسجيل الخروج) أو من
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>،
+      ويمكنك حذف الجدول من Google Drive متى شئت.</p>
+    <p>يلتزم البرنامج في استخدام المعلومات الواردة من Google APIs بسياسة بيانات مستخدمي خدمات Google API،
+      بما في ذلك متطلبات الاستخدام المحدود.</p>
+  </div>
+</main>
+</body>
+</html>
